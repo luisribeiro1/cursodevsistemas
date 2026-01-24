@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-dom"; // Trocamos Link por NavLink
+import { HashRouter as Router, Routes, Route, NavLink } from "react-router-dom"; // Trocamos Link por NavLink
 import Ucs from './pages/ucs';
 import Faltas from './pages/faltas';
 import Bibliografia from './pages/bibliografia';
