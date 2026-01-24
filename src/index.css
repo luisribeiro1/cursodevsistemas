@@ -1,0 +1,64 @@
+:root {
+    --primary: #6366f1;
+    --primary-dark: #4f46e5;
+    --bg-body: #f8fafc;
+    --text-main: #1e293b;
+    --text-muted: #64748b;
+}
+
+.btn-tech {
+    background: white;
+    border: 1px solid #e2e8f0;
+    color: var(--text-muted);
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.btn-tech.active, .btn-tech:hover {
+    background: var(--primary);
+    color: white !important;
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.25);
+}
+
+.badge-html {
+    background: #fff4ed;
+    color: #ea580c;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+/* Custom Accordion */
+.custom-accordion .accordion-item {
+    border-radius: 16px !important;
+    margin-bottom: 1rem;
+    border: 1px solid #e2e8f0;
+    overflow: hidden;
+}
+
+.tag-item {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.tag-item code {
+    background: #eef2ff;
+    color: var(--primary-dark);
+    padding: 4px;
+    text-align: center;
+    border-radius: 6px;
+}
+.logo{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.fw-bold2 {
+    font-weight: 500;
+}   
